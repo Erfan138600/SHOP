@@ -40,6 +40,10 @@
             background-color: rgba(15, 23, 42, 0.75);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
+        /* با این دیزاین در دارک مود بهتر نمایش داده میشن */
+        .dark a{
+            color: white;
+        }
         
         .product-card:hover {
             transform: translateY(-10px);
@@ -114,10 +118,11 @@
             <div class="flex items-center space-x-8">
                 <a href="#" class="text-2xl font-bold text-blue-500">NEXUS</a>
                 <div class="hidden md:flex space-x-6">
-                    <a href="#" class="hover:text-blue-500 transition">Home</a>
-                    <a href="#products" class="hover:text-blue-500 transition">Products</a>
-                    <a href="#features" class="hover:text-blue-500 transition">Features</a>
-                    <a href="#reviews" class="hover:text-blue-500 transition">Reviews</a>
+                    <!-- با اضافه کردن text-blue-600 در حالت لایت مود نمایش بهتری دارن -->
+                    <a href="#" class="hover:text-blue-500 text-blue-600 transition">Home</a>
+                    <a href="#products" class="hover:text-blue-500 text-blue-600 transition">Products</a>
+                    <a href="#features" class="hover:text-blue-500 text-blue-600 transition">Features</a>
+                    <a href="#reviews" class="hover:text-blue-500 text-blue-600 transition">Reviews</a>
                 </div>
             </div>
             
